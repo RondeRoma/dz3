@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
@@ -52,7 +53,7 @@ button {
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .logotype {
@@ -68,7 +69,6 @@ button {
 }
 .logo-f {
   color: var(--white-color);
-}
 }
 
 .main-banner {
