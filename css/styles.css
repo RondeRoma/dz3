@@ -52,12 +52,8 @@ button {
   background: #f5f4fa;
   border-radius: 4px;
   min-width: 73px;
-
   margin-right: 8px;
 }
-/*.btn-portf.item:not(:last-child) {
-  margin-right: 8px;
-}*/
 
 .btn-portf:hover,
 .btn-portf:focus {
@@ -123,15 +119,15 @@ button {
   margin-top: 94px;
   margin-bottom: 94px;
 }
-.features-cont {
+.features-cont,
+.our-works,
+.site-nav,
+.team-list {
   display: flex;
 }
 
 .features-cont .item:not(:last-child) {
   margin-right: 30px;
-}
-.our-works {
-  display: flex;
 }
 
 .our-works .item:not(:last-child) {
@@ -147,9 +143,6 @@ button {
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
-}
-.site-nav {
-  display: flex;
 }
 
 .site-nav .item:not(:last-child) {
@@ -198,10 +191,6 @@ button {
 }
 .our-team {
   background: #f5f4fa;
-}
-
-.team-list {
-  display: flex;
 }
 
 .team-list .item:not(:last-child) {
@@ -282,7 +271,7 @@ button {
 }
 
 .portfolio-list .item {
-  width: 370px;
+  width: calc((100% - 60px) / 3);
 }
 
 .portfolio-list .item:not(:nth-child(3n)) {
