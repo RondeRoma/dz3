@@ -14,19 +14,23 @@
 
   <body>
     <header>
-      <div class="container">
+      <div class="container head-cont">
         <a class="logotype link" href="./index.html"
           >Web <span class="logo">Studio</span></a
         >
         <nav>
           <ul class="site-nav list">
-            <li><a href="./index.html" class="link current">Студия</a></li>
-            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-            <li><a href="" class="link">Контакты</a></li>
+            <li class="item">
+              <a href="./index.html" class="link current">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li class="item"><a href="#" class="link">Контакты</a></li>
           </ul>
         </nav>
         <ul class="contact-h list">
-          <li>
+          <li class="item">
             <a href="mailto:info@devstudio.com" class="link"
               ><img
                 src="./images/mailpic.svg"
@@ -34,7 +38,7 @@
               />info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="item">
             <a href="tel:+380961111111" class="link"
               ><img src="./images/phonepic.svg" alt="Лого телефона" />+38 096
               111 11 11</a
@@ -52,8 +56,8 @@
       <section class="section features">
         <div class="container">
           <h2 class="sect-title" hidden>Особенности</h2>
-          <ul class="list">
-            <li>
+          <ul class="list features-cont">
+            <li class="item">
               <img src="./images/antenna.svg" alt="Лого антенны" width="70" />
               <h3 class="sect-minititle">Внимание к деталям</h3>
               <p class="sect-par">
@@ -61,7 +65,7 @@
                 формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="item">
               <img src="./images/clock.svg" alt="Лого часов" width="70" />
               <h3 class="sect-minititle">Пунктуальность</h3>
               <p class="sect-par">
@@ -69,7 +73,7 @@
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/diagram.svg"
                 alt="Лого диакраммы на ноутбуке"
@@ -81,7 +85,7 @@
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/astronaut.svg"
                 alt="Лого астронавта"
@@ -99,8 +103,8 @@
       <section class="section">
         <div class="container">
           <h2 class="sect-title">Чем мы занимаемся</h2>
-          <ul class="list">
-            <li>
+          <ul class="list our-works">
+            <li class="item">
               <img
                 src="./images/desctopapp.jpg"
                 alt="фото Десктопа"
@@ -108,7 +112,7 @@
               />
               <p class="title-par">Десктопные приложения</p>
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/mobapp.jpg"
                 alt="фото мобильного"
@@ -116,7 +120,7 @@
               />
               <p class="title-par">Мобильные приложения</p>
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/dizdesicion.jpg"
                 alt="фото монитора"
@@ -130,8 +134,8 @@
       <section class="section our-team">
         <div class="container">
           <h2 class="sect-title">Наша команда</h2>
-          <ul class="list">
-            <li>
+          <ul class="list team-list">
+            <li class="item">
               <img
                 src="./images/nickolaykucherenko.jpg"
                 alt="фото Николая Кучеренко"
@@ -140,7 +144,7 @@
               <div class="team-decription">
                 <h3 class="team-name">Николай Кучеренко</h3>
                 <p class="team-p">Product Designer</p>
-                <ul class="list">
+                <ul class="list msngrs">
                   <li>
                     <a
                       href="https://www.instagram.com/"
@@ -184,7 +188,7 @@
                 </ul>
               </div>
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/olgaivanova.jpg"
                 alt="фото Ольги Ивановой"
@@ -193,7 +197,7 @@
               <div class="team-decription">
                 <h3 class="team-name">Ольга Иванова</h3>
                 <p class="team-p">Frontend Developer</p>
-                <ul class="list">
+                <ul class="list msngrs">
                   <li>
                     <a
                       href="https://www.instagram.com/"
@@ -237,7 +241,7 @@
                 </ul>
               </div>
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/andreyshevchenko.jpg"
                 alt="фото Андрея Шевченко"
@@ -246,7 +250,7 @@
               <div class="team-decription">
                 <h3 class="team-name">Андрей Шевченко</h3>
                 <p class="team-p">Marketing</p>
-                <ul class="list">
+                <ul class="list msngrs">
                   <li>
                     <a
                       href="https://www.instagram.com/"
@@ -290,7 +294,7 @@
                 </ul>
               </div>
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/ivannikolayev.jpg"
                 alt="фото Ивана Николаева"
@@ -299,7 +303,7 @@
               <div class="team-decription">
                 <h3 class="team-name">Иван Николаев</h3>
                 <p class="team-p">UI Designer</p>
-                <ul class="list">
+                <ul class="list msngrs">
                   <li>
                     <a
                       href="https://www.instagram.com/"
@@ -349,20 +353,44 @@
       <section class="section">
         <div class="container clients">
           <h2 class="sect-title">Постоянные клиенты</h2>
-          <ul class="list">
-            <li><img src="./images/client1.svg" alt="Лого клиента 1" /></li>
-            <li><img src="./images/client2.svg" alt="Лого клиента 2" /></li>
-            <li><img src="./images/client3.svg" alt="Лого клиента 3" /></li>
-            <li><img src="./images/client4.svg" alt="Лого клиента 4" /></li>
-            <li><img src="./images/client5.svg" alt="Лого клиента 5" /></li>
-            <li><img src="./images/client6.svg" alt="Лого клиента 6" /></li>
+          <ul class="list clients-list">
+            <li>
+              <a href=""
+                ><img src="./images/client1.svg" alt="Лого клиента 1"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./images/client2.svg" alt="Лого клиента 2"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./images/client3.svg" alt="Лого клиента 3"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./images/client4.svg" alt="Лого клиента 4"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./images/client5.svg" alt="Лого клиента 5"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./images/client6.svg" alt="Лого клиента 6"
+              /></a>
+            </li>
           </ul>
         </div>
       </section>
     </main>
 
     <footer>
-      <div class="container">
+      <div class="container foot-cont">
         <a class="logotype link" href="./index.html"
           >Web <span class="logo-f">Studio</span></a
         >
