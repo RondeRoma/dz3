@@ -21,9 +21,17 @@ body {
 }
 
 button {
+  display: inline-block;
   font-family: inherit;
+  border-radius: 4px;
+  padding: 10px 29px;
+  min-width: 200px;
+  text-align: center;
 }
 .btn-main {
+  padding: 10px 32px;
+  margin: 0;
+  margin-bottom: 210px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -35,6 +43,7 @@ button {
 }
 
 .btn-portf {
+  padding: 13px 28px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -50,6 +59,8 @@ button {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .link {
@@ -63,6 +74,8 @@ button {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+  padding: 24px 0 25px 215px;
+  margin-left: 85px;
 }
 .logo {
   color: var(--primary-text-color);
@@ -70,16 +83,27 @@ button {
 .logo-f {
   color: var(--white-color);
 }
-
 .main-banner {
+  margin-top: 0;
+  margin-bottom: 0;
+  background: rgba(47, 48, 58, 0.8);
+  text-align: center;
+}
+
+.hero-title {
+  margin: 0;
+  padding: 200px 452px 40px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
-  background: rgba(47, 48, 58, 0.8);
+}
+.features {
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 .sect-portfolio {
 }
@@ -116,7 +140,14 @@ button {
 .our-team {
   background: #f5f4fa;
 }
+.clients {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
 .sect-title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -129,6 +160,12 @@ button {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.team-decription {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-name {
   font-weight: 500;
@@ -141,6 +178,8 @@ button {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  padding: 0;
+  margin: 0;
 }
 .team-p {
   font-size: 16px;
@@ -176,6 +215,9 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-color);
+  padding: 27px 82px 27px 83px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 footer {
   background: #2f303a;
