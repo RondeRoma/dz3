@@ -51,6 +51,7 @@ button {
   letter-spacing: 0.03em;
   background: #f5f4fa;
   border-radius: 4px;
+  border-color: transparent;
   min-width: 73px;
   margin-right: 8px;
 }
@@ -66,7 +67,6 @@ button {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px dashed tomato;
 }
 .list {
   list-style: none;
@@ -190,14 +190,20 @@ button {
   color: var(--accent-color);
 }
 .our-team {
-  background: #f5f4fa;
+  background-color: #f5f4fa;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .team-list .item:not(:last-child) {
   margin-right: 30px;
 }
 
-.team-list,
+.team-list .item {
+  width: calc((100% - 90px) / 4);
+  background-color: var(--white-color);
+}
+
 .clients {
   margin-top: 94px;
   margin-bottom: 94px;
@@ -205,7 +211,7 @@ button {
 
 .msngrs {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .sect-title {
   margin: 0;
@@ -228,6 +234,11 @@ button {
 }
 .team-decription {
   text-align: center;
+  background-color: var(--white-color);
+  margin-top: 0;
+}
+.our-team img {
+  display: block;
 }
 .team-name {
   font-weight: 500;
@@ -270,6 +281,7 @@ button {
 
 .portfolio-list .item {
   width: calc((100% - 60px) / 3);
+  border: 1px solid rgb(238, 238, 238);
 }
 
 .portfolio-list .item:not(:nth-child(3n)) {
@@ -280,17 +292,6 @@ button {
   margin-bottom: 30px;
 }
 
-.foot-cont {
-  display: flex;
-  align-items: center;
-}
-
-.portf-p {
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
-}
 .hover-p {
   background: rgba(33, 150, 243, 0.9);
   font-size: 18px;
@@ -314,6 +315,20 @@ footer {
   background: #2f303a;
   color: var(--white-color);
 }
+
+.foot-cont {
+  display: flex;
+  align-items: baseline;
+  padding-top: 60px;
+  padding-left: 60px;
+}
+
+.portf-p {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
 .p-footer {
   font-style: normal;
   font-size: 14px;
@@ -323,4 +338,22 @@ footer {
 .contact-f {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+}
+.logo-contacts {
+  width: calc(25% + 30px);
+}
+.followus {
+  width: calc(25% + 30px);
+}
+.mailbtn {
+  width: calc(50% - 15px);
+  padding-top: 72px;
+  padding-bottom: 164px;
+}
+.msngrs-f {
+  display: flex;
+  margin-right: 10px;
+}
+.input-f {
+  margin-right: 12px;
 }
