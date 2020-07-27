@@ -30,13 +30,11 @@ button {
 }
 .btn-main {
   padding: 10px 32px;
-  margin: 0;
-  margin-bottom: 210px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  align-items: center;
-  text-align: center;
+  /*align-items: center;
+  text-align: center;*/
   letter-spacing: 0.06em;
   color: var(--white-color);
   background-color: var(--accent-color);
@@ -97,19 +95,16 @@ button {
   color: var(--white-color);
 }
 .main-banner {
-  margin-top: 0;
-  margin-bottom: 0;
+  padding: 200px 0;
   background: rgba(47, 48, 58, 0.8);
   text-align: center;
 }
 
 .hero-title {
-  margin: 0;
-  padding: 200px 452px 40px;
+  margin: 0 0 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
