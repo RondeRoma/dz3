@@ -195,33 +195,6 @@ button {
   padding: 94px 0;
 }
 
-.team-list .item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.team-list .item {
-  width: calc((100% - 90px) / 4);
-  background-color: var(--white-color);
-}
-
-.team-decription .team-name {
-  margin-top: 30px;
-  margin-bottom: 0;
-}
-
-.msngrs {
-  display: flex;
-  margin: 16px 32px 24px;
-}
-
-.msngrs .msn-pdng:not(:last-child) {
-  padding-right: 10px;
-}
-
-.clients {
-  padding: 94px 0;
-}
-
 .sect-title {
   margin: 0;
   padding: 0;
@@ -270,9 +243,44 @@ button {
   color: var(--secondary-text-color);
 }
 
+.team-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-list .item {
+  width: calc((100% - 90px) / 4);
+  background-color: var(--white-color);
+}
+
+.team-decription .team-name {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.msngrs {
+  display: flex;
+  margin: 16px 32px 24px;
+}
+
+.msngrs .msn-pdng:not(:last-child) {
+  padding-right: 10px;
+}
+
+.clients {
+  padding: 94px 0;
+}
+
 .clients-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+}
+.clients-list .items {
+  width: calc((100% - 150px) / 6);
+}
+
+.clients-list .items.msn-pdng:not(:last-child) {
+  margin-right: 30px;
 }
 
 .title-portf {
