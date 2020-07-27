@@ -33,8 +33,6 @@ button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  /*align-items: center;
-  text-align: center;*/
   letter-spacing: 0.06em;
   color: var(--white-color);
   background-color: var(--accent-color);
@@ -337,7 +335,7 @@ footer {
   display: flex;
   align-items: baseline;
   padding-top: 60px;
-  padding-left: 60px;
+  padding-bottom: 60px;
 }
 
 .portf-p {
@@ -364,13 +362,23 @@ footer {
 }
 .mailbtn {
   width: calc(50% - 15px);
-  padding-top: 72px;
-  padding-bottom: 164px;
 }
 .msngrs-f {
   display: flex;
-  margin-right: 10px;
 }
 .input-f {
   margin-right: 12px;
+}
+.foot-p {
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.msngrs-f .msn-pdng:not(:last-child) {
+  padding-right: 10px;
 }
