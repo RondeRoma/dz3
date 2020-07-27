@@ -109,10 +109,8 @@ button {
   text-transform: uppercase;
   color: var(--white-color);
 }
-.features,
-.our-team {
-  margin-top: 94px;
-  margin-bottom: 94px;
+.features {
+  padding: 94px 0;
 }
 .features-cont,
 .our-works,
@@ -123,6 +121,14 @@ button {
 
 .features-cont .item:not(:last-child) {
   margin-right: 30px;
+}
+
+.profile {
+  padding-bottom: 94px;
+}
+
+.profile img {
+  display: block;
 }
 
 .our-works .item:not(:last-child) {
@@ -186,8 +192,7 @@ button {
 }
 .our-team {
   background-color: #f5f4fa;
-  padding-bottom: 94px;
-  padding-top: 94px;
+  padding: 94px 0;
 }
 
 .team-list .item:not(:last-child) {
@@ -199,15 +204,24 @@ button {
   background-color: var(--white-color);
 }
 
-.clients {
-  margin-top: 94px;
-  margin-bottom: 94px;
+.team-decription .team-name {
+  margin-top: 30px;
+  margin-bottom: 0;
 }
 
 .msngrs {
   display: flex;
-  justify-content: space-evenly;
+  margin: 16px 32px 24px;
 }
+
+.msngrs .msn-pdng:not(:last-child) {
+  padding-right: 10px;
+}
+
+.clients {
+  padding: 94px 0;
+}
+
 .sect-title {
   margin: 0;
   padding: 0;
