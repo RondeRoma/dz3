@@ -256,11 +256,11 @@ button {
 }
 
 .msngrs .msn-pdng:not(:last-child) {
-  padding-right: 10px;
+  margin-right: 20px;
 }
 
 .clients {
-  padding: 94px 0;
+  padding: 94px;
 }
 
 .clients-list {
@@ -272,7 +272,7 @@ button {
   width: calc((100% - 150px) / 6);
 }
 
-.clients-list .items.msn-pdng:not(:last-child) {
+.clients-list .items:not(:last-child) {
   margin-right: 30px;
 }
 
