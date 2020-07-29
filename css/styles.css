@@ -219,12 +219,14 @@ padding: 25px 100px;
 .team-decription {
   text-align: center;
   background-color: var(--white-color);
-  margin-top: 0;
+  padding-bottom: 24px;
 }
 .our-team img {
   display: block;
 }
 .team-name {
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -243,7 +245,7 @@ padding: 25px 100px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-  margin: 0;
+  margin: 0 0 16px;
 }
 
 .team-list .item:not(:last-child) {
@@ -255,19 +257,13 @@ padding: 25px 100px;
   background-color: var(--white-color);
 }
 
-.team-decription .team-name {
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
 .msngrs {
   display: flex;
   justify-content: center;
-  margin: 16px 32px 24px;
 }
 
 .msngrs .msn-pdng:not(:last-child) {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .castomers {
