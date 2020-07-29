@@ -120,6 +120,16 @@ button {
 .features-cont .item:not(:last-child) {
   margin-right: 30px;
 }
+.img-feat {
+  display: block;
+  padding: 25px 100px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
+/*
+padding: 25px 100px;
+  background-color: #f5f4fa;
+*/
 
 .profile {
   padding-bottom: 94px;
@@ -204,8 +214,7 @@ button {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin: 0 0 10px;
 }
 .team-decription {
   text-align: center;
