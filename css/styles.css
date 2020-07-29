@@ -347,13 +347,11 @@ padding: 25px 100px;
 }
 
 .title-portf {
-  padding-top: 20px;
-  padding-bottom: 16px;
-  margin: 0;
+  margin: 0 0 4px;
 }
 
 .pic-description {
-  padding: 0 24px 20px;
+  padding: 20px 24px;
 }
 
 footer {
